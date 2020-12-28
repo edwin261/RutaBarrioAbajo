@@ -1,0 +1,153 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.img-fluid {
+  max-width: 77% !important;}
+
+.nav-side-menu {
+  overflow: auto;
+  font-family: verdana;
+  font-size: 12px;
+  font-weight: 200;
+  background-color: #0E233D;
+  position: fixed;
+  top: 0px;
+  padding-left: 0px;
+  height: 100%;
+  width: 100%;
+  color: #e1ffff;
+  right: 0%;
+}
+
+#title_image, #tituloImg{
+  padding-bottom: 4vh;
+  margin-top: 8%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 43%;
+}
+
+#tituloImg{
+  width: 65% !important;
+}
+
+#divModal{
+  height: 79% !important;
+  padding-top: 41% !important;
+}
+
+#footer_image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: 10px;
+  width: 85%;
+  left: 9%;
+}
+
+.buttons_option{
+  height: 5.5% !important;
+  margin-bottom: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+#buttons_image_option{
+	margin-top: 2%;
+}
+
+.sello_size{
+	z-index: 99;
+	visibility: hidden;
+  width: 32%;
+  margin: 3.7%;
+  margin-top: -73px;
+  position: sticky;
+}
+
+#ContainerDesctipcion, #divModal{
+  text-align: justify;
+	visibility: hidden;
+	border-radius: 21px;
+	background-color: rgb(255 255 255 / 87%);
+	width: 83%;
+  height: 36vh;
+	-webkit-box-shadow: 6px 5px 20px -4px rgba(0,0,0,0.73); 
+	box-shadow: 6px 5px 20px -4px rgba(0,0,0,0.73);
+  margin-left: 5%;
+	position: absolute; 
+	bottom: 6%;
+}
+
+.SmallDescripcion{
+	color: gray
+}
+
+#TitleDescripcion{
+	font-weight: bold;
+  text-align: left !important;
+}
+
+#InmuebleDescripcion, #JuegosDescripcion, #CocinasDescripcion, #FiestasDescripcion,
+#DanzaDescripcion, #MemoriaDescripcion{
+	margin-right: 12%;
+	display: none;
+}
+
+#MapsFrame{
+  width: 100%;
+  height: 92.3vh;
+  margin-top: 15%;
+}
+
+.boton {
+	float: right;
+	margin-right: 2vh;
+	cursor: pointer;
+  margin-top: -46%;
+  position: sticky;
+}
+
+
+.btn-circleRigth.btn-xl {
+  width: 55px;
+  height: 55px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 24px;
+  line-height: 1.33;
+  background-color: #0E233D;
+  border-color: #0776ff;
+}
+
+.btn-circleRigth {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+  position: fixed;
+  z-index: 100;
+  top: 0.5%;
+  left: 82%;
+}
+
+#menuOptions{
+  z-index: 100;
+  display: none;
+}
+
+#Descripcion{
+  padding-right: 10%;
+  padding-left: 10%;
+}
