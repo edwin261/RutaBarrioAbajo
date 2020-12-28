@@ -104,8 +104,7 @@ body {
 
 #MapsFrame{
   width: 100%;
-  height: 92.3vh;
-  margin-top: 15%;
+  height: 100vh;
 }
 
 .boton {
