@@ -6,6 +6,10 @@ var DANZA_Img = false;
 var MEMORIA_Img = false;
 var isplayed = 0;
 
+        $(document).ready(function(){
+            $("#myModal").modal('show');
+        });
+
 $("document").ready(function() {
     //image INMUEBLE
     $("#img_INMUEBLE").mouseenter(function() {
